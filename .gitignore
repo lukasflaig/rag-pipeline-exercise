@@ -137,6 +137,9 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+
+# RAG / Chroma (von Kandidaten hinzugefügt)
+chroma_db/
 .venv
 env/
 venv/
