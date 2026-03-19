@@ -2,19 +2,13 @@
 
 ## Deine Aufgabe
 
-Baue eine einfache RAG-Pipeline (Retrieval-Augmented Generation), die die Dokumente im Ordner `data/` einliest, in eine Vektordatenbank indexiert und anschließend Fragen zu diesen Dokumenten beantworten kann.
+Baue eine einfache RAG-Pipeline (Retrieval-Augmented Generation), die die Dokumente im Ordner `data/` einliest, in eine Vektordatenbank indexiert und damit Fragen zu diesen Dokumenten beantworten kann. Bei einer Anfrage soll die Pipeline relevante Inhalte aus den Dokumenten finden und daraus mit Hilfe eines LLMs eine Antwort erzeugen.
 
-Bei einer Anfrage soll die Pipeline relevante Inhalte aus den Dokumenten finden und daraus mit Hilfe eines LLMs eine Antwort erzeugen.
+Das Ergebnis soll ein einfacher Python-Einstiegspunkt oder eine kleine CLI sein, die eine Frage entgegennimmt und eine Antwort auf Basis der bereitgestellten Dokumente ausgibt. Ein Frontend, eine Web-App oder eine grafische Oberfläche sind nicht erforderlich.
 
-Beispielhafte Fragen, die deine Pipeline zu den bereitgestellten Dokumenten beantworten können sollte, findest du weiter unten.
+Beispielhafte Fragen, die deine Pipeline beantworten können sollte, findest du weiter unten.
 
 > **Wichtig:** Bitte beachte die [Hinweise zur Verwendung der kostenlosen OpenRouter-Modelle](#llm-zugriff--openrouter) im Setup.
-
-## Ziel
-
-Gesucht ist ein einfacher Python-Einstiegspunkt oder eine kleine CLI, die eine Frage entgegennimmt und eine Antwort auf Basis der bereitgestellten Dokumente ausgibt.
-
-Ein Frontend, eine Web-App oder eine grafische Oberfläche sind nicht erforderlich.
 
 ## Technischer Rahmen
 
