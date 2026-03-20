@@ -10,6 +10,10 @@ Beispielhafte Fragen, die deine Pipeline beantworten können sollte, findest du 
 
 > **Wichtig:** Bitte beachte die [Hinweise zur Verwendung der kostenlosen OpenRouter-Modelle](#llm-zugriff--openrouter) im Setup.
 
+## Einreichung
+
+Stelle uns deinen fertigen Code so bereit, dass wir ihn einsehen können: Entweder machst du dein GitHub-Repository **öffentlich (public)**, oder du fügst uns als **Collaborator** zu deinem Repository hinzu. Bitte **keine** Commits oder Pushes ins ursprüngliche Vorlagen-Repository.
+
 ## Technischer Rahmen
 
 Die konkrete Umsetzung ist dir überlassen. An folgendem Setup kannst du dich orientieren:
@@ -43,6 +47,15 @@ Im Ordner `data/` befinden sich die Dokumente, die von deiner Pipeline verarbeit
 ---
 
 ## Setup
+
+### Repository klonen
+
+Klone dieses Repository auf deinen Rechner (oder forke es auf GitHub in dein eigenes Konto und klone deinen Fork). Arbeite in **deiner** Kopie. Bitte **keine** Commits oder Pushes ins ursprüngliche Vorlagen-Repository.
+
+```bash
+git clone https://github.com/lukasflaig/rag-pipeline-exercise.git
+cd rag-pipeline-exercise
+```
 
 ### Voraussetzungen
 
@@ -97,13 +110,15 @@ rag-pipeline-exercise/
 └── data/
     ├── ...
 ```
+
 ---
 
 ## Beispielfragen
 
 Beispielhafte Fragen zu den bereitgestellten Dokumenten:
 
-- Wo hat die Firma Muster GmbH ihren Sitz?
-- Was kostet MusterFlow?
-- Wer sind die Geschäftsführer?
-- Welche Produkte bietet die Firma an?
+- Was ist FastAPI, und wofür eignet es sich typischerweise? (`What is FastAPI?.docx`)
+- Welche drei RAG-Paradigmen werden unterschieden, und welches Problem soll RAG bei LLMs adressieren? (`Retrieval-Augmented Generation for Large Language Models - A Survey.pdf`)
+- Was ist Azure AI Foundry, und welche Schritte oder Konzepte werden für den Start beschrieben? (`Getting Started with Azure AI Foundry.docx`)
+- Welche Dokumentformate kann Docling verarbeiten, und welche Ausgabeformate werden unterstützt? (`Docling - An Efficient Open-Source Toolkit for AI-driven Document Conversion.pdf`)
+
