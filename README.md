@@ -118,7 +118,7 @@ rag-pipeline-exercise/
 Beispiele für mögliche Nutzerfragen:
 
 - Was ist FastAPI, und wofür eignet es sich typischerweise? (`What is FastAPI?.docx`)
-- Welche drei RAG-Paradigmen werden unterschieden (`Retrieval-Augmented Generation for Large Language Models - A Survey.pdf`)
+- Welche drei RAG-Paradigmen werden unterschieden? (`Retrieval-Augmented Generation for Large Language Models - A Survey.pdf`)
 - Was ist Azure AI Foundry? (`Getting Started with Azure AI Foundry.docx`)
 - Welche Dokumentformate kann Docling verarbeiten? (`Docling - An Efficient Open-Source Toolkit for AI-driven Document Conversion.pdf`)
 
